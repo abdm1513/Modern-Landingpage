@@ -6,29 +6,29 @@ import Image from "next/image";
 
 const items = [
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "What is the purpose of our sales monitoring tool?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "Our sales monitoring tool helps you track sales performance in real-time, allowing you to make informed decisions based on data insights and trends.",
   },
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "How can I customize the dashboard?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "You can easily customize the dashboard by selecting the metrics that matter most to you, ensuring you have a personalized view of your sales data.",
   },
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "Is there a mobile version of the tool?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "Yes, our sales monitoring tool is fully responsive and can be accessed on any device, including smartphones and tablets.",
   },
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "What integrations do you offer?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "We offer seamless integrations with various CRM systems and other business tools to enhance your workflow and data accessibility.",
   },
   {
-    question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
+    question: "How do I get support if I encounter issues?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+      "Our support team is available 24/7 via chat and email to assist you with any questions or issues you may have.",
   },
 ];
 
@@ -40,11 +40,10 @@ export function Faq() {
           Frequently Asked Questions
         </h3>
         <h1 className="py-4 text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-          Lets clarify some of your questions
+          Let’s Clarify Your Questions
         </h1>
         <p className="text-[#36485C] pb-[24px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore
+          Discover answers to your queries and learn more about our services.
         </p>
       </div>
 

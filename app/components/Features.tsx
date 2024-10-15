@@ -39,19 +39,19 @@ export function Features() {
               <span>
                 <Image src={Check} alt="Checkmark" />
               </span>
-              Lorem ipsum dolor sit amet
+              Real-time insights
             </li>
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
                 <Image src={Check} alt="Checkmark" />
               </span>
-              Lorem ipsum dolor sit amet
+              Customizable metrics
             </li>
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
                 <Image src={Check} alt="Checkmark" />
               </span>
-              Lorem ipsum dolor sit amet
+              Seemless integration
             </li>
           </ul>
 
@@ -70,44 +70,43 @@ export function Features() {
           alt="Feature 1 image"
           className="hidden w-1/2 sm:block"
         />
-        <div className="sm:w-1/2 lg:py-[56px] lg:pl-[56px]">
-          <h3 className="font-medium text-[#00A424] lg:text-[18px] ">
-            Customer Support
-          </h3>
-          <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
-            Get in touch with your customers
-          </h1>
-          <Image
-            src={Feature2}
-            alt="feature 1 image"
-            className="pt-[24px] sm:hidden"
-          />
-          <p className="py-[24px] text-[#36485C] lg:text-[18px]">
-            Stay on top of things and revamp your work process with our
-            game-changing feature. Get a birds eye view with our customizable
-            dashboard.
-          </p>
+       <div className="sm:w-1/2 lg:py-[56px] lg:pl-[56px]">
+        <h3 className="font-medium text-[#00A424] lg:text-[18px] ">
+          Customer Support
+        </h3>
+        <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
+          Connect with Your Customers
+        </h1>
+        <Image
+          src={Feature2}
+          alt="feature 1 image"
+          className="pt-[24px] sm:hidden"
+        />
+        <p className="py-[24px] text-[#36485C] lg:text-[18px]">
+          Enhance your customer interactions and streamline your support system with our innovative features. Gain valuable insights and improve response times through our intuitive dashboard.
+        </p>
 
-          <ul className="flex flex-col gap-y-3 lg:text-[18px]">
+        <ul className="flex flex-col gap-y-3 lg:text-[18px]">
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
                 <Image src={Check} alt="Checkmark" />
               </span>
-              Lorem ipsum dolor sit amet
+                24/7 Support for all your needs
             </li>
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
                 <Image src={Check} alt="Checkmark" />
               </span>
-              Lorem ipsum dolor sit amet
+              Personalized assistance tailored to your business
             </li>
             <li className="flex items-center gap-x-2 text-[#36485C]">
               <span>
                 <Image src={Check} alt="Checkmark" />
               </span>
-              Lorem ipsum dolor sit amet
+              Comprehensive resources and training available
             </li>
-          </ul>
+        </ul>
+
 
           <p className="flex items-center gap-x-2 pt-[24px] font-medium text-[#00A424] lg:text-[18px]">
             Learn More{" "}
